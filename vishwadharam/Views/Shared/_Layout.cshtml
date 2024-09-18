@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="~/css/United.css" asp-append-version="true" />
     @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+
+    <link rel="stylesheet" href="~/lib/fontawesome/css/all.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/vishwadharam.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -40,11 +42,47 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="bg-dark text-black pt-4">
         <div class="container">
-            &copy; 2024 - vishwadharam - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <!-- NGO Logo and Hours of Operation -->
+                <div class="col-md-4">
+                    <img src="~/images/icon.png"
+                         height="48" width="48" alt="NGO Logo" class="img-fluid mb-3" style="max-width: 150px;">
+                    <h5>Ashram Hours</h5>
+                    <p>Monday - Friday: 9:00 AM - 4.30pm</p>
+                    <p>Saturday - Sunday: Closed</p>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <p><strong>Phone:</strong> 083 564 0004</p>
+                    <p><strong>Email:</strong> baboo@reprodesigns.co.za</p>
+                    <p><strong>Address:</strong> 5 Winton Crescent, Westville, 3629 South Africa</p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="https://facebook.com/yourNGO" target="_blank" class="btn btn-outline-light me-2 mb-2">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="https://x.com/yourNGO" target="_blank" class="btn btn-outline-light me-2 mb-2">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/yourNGO" target="_blank" class="btn btn-outline-light mb-2">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3">
+            <p class="mb-0">© 2024 Vishwa Dharam Ashram - All Rights Reserved</p>
         </div>
     </footer>
+
+    <!-- Ensure you have Font Awesome and Bootstrap -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

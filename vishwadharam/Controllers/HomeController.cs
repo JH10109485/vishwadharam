@@ -28,5 +28,13 @@ namespace vishwadharam.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpPost]
+        public IActionResult Contact(string Name, string Email, string Message)
+        {
+            // Handle form data (e.g., send email, save to database)
+            ViewBag.Message = "Thank you for contacting us!";
+            return RedirectToAction("Index");
+        }
     }
 }

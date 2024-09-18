@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jared\\source\\repos\\vishwadharam\\vishwadharam.csproj",
+      "projectUniqueName": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj",
       "projectName": "vishwadharam",
-      "projectPath": "C:\\Users\\jared\\source\\repos\\vishwadharam\\vishwadharam.csproj",
+      "projectPath": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj",
       "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jared\\source\\repos\\vishwadharam\\obj\\",
+      "outputPath": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config",
