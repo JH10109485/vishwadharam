@@ -6,6 +6,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Configure cookie authentication
+builder.Services.AddAuthentication("MyCookieAuth")
+    .AddCookie("MyCookieAuth", options =>
+    {
+        options.Cookie.Name = "MyAuthCookie";
+        options.LoginPath = "/Account/Login"; // Path to login page
+        options.LogoutPath = "/Account/Logout"; // Path to logout action
+        options.AccessDeniedPath = "/Account/AccessDenied"; // Path to access denied page
+    });
+
 //Toast
 builder.Services.AddNotyf(config =>
 {
@@ -29,6 +39,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 

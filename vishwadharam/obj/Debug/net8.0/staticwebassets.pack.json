@@ -21,12 +21,36 @@
       "PackagePath": "staticwebassets\\images\\banner1.jpg"
     },
     {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
       "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\banner3.jpg",
       "PackagePath": "staticwebassets\\images\\banner3.jpg"
     },
     {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner4.jpg"
+    },
+    {
       "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\icon.png",
       "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\iconbg.png",
+      "PackagePath": "staticwebassets\\images\\iconbg.png"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\icons\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\icons\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\icons\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\icons\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\images\\icons\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\icons\\twitter.png"
     },
     {
       "Id": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\wwwroot\\js\\site.js",

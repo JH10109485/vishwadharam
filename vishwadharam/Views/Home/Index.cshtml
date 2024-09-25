@@ -2,91 +2,131 @@
     ViewData["Title"] = "Home Page";
 }
 
-<!-- Carousel Section -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!-- Custom CSS for Carousel Images -->
+<style>
+    .carousel-inner img {
+        height: 400px; /* Set a fixed height for the banner */
+        object-fit: cover; /* Crop the image to fit the container */
+        width: 100%; /* Ensure it spans the entire width */
+    }
+</style>
+
+<!-- Carousel -->
+<div id="hero" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="~/images/banner1.jpg" class="d-block w-100" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First Slide Heading</h5>
-                <p>Description for the first slide.</p>
+            <img src="~/images/banner2.jpg" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption">
+                <h1>Welcome to Vishwa Dharam Ashram</h1>
+                <p>Your spiritual journey starts here</p>
+                <a href="/Home/About" class="btn btn-primary">Learn More</a>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="~/images/banner3.jpg" class="d-block w-100 h-50" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second Slide Heading</h5>
-                <p>Description for the second slide.</p>
+            <img src="~/images/banner1.jpg" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption">
+                <h1>Our Mission</h1>
+                <p>Empowering communities through spirituality and service</p>
+                <a href="/Home/Mission" class="btn btn-primary">Get Involved</a>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="~/Images/image3.jpg" class="d-block w-100 h-40" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third Slide Heading</h5>
-                <p>Description for the third slide.</p>
+            <img src="~/images/banner4.jpg" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption">
+                <h1>Join Us</h1>
+                <p>Find peace and purpose at Vishwa Dharam Ashram</p>
+                <a href="/Home/Contact" class="btn btn-primary">Contact Us</a>
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
     </button>
 </div>
 
+
 <!-- About Us Section -->
 <section class="about-us bg-light py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center mb-4">
-                <h2>About Us</h2>
-                <p class="lead">Learn more about our NGO, our mission, and the impact we strive to make in the community.</p>
-            </div>
-        </div>
+    <div class="container text-center">
+        <h2>About Us</h2>
+        <p class="lead">We are dedicated to spreading spiritual wisdom and helping communities in need.</p>
         <div class="row">
             <div class="col-md-6">
                 <h3>Our Mission</h3>
-                <p>Our mission is to empower communities by providing resources, support, and education to improve their quality of life. We aim to foster sustainable growth and inspire hope for a brighter future.</p>
+                <p>At Vishwa Dharam, we aim to empower communities through spiritual education, charity, and service.</p>
             </div>
             <div class="col-md-6">
                 <h3>What We Do</h3>
-                <p>We organize various projects and events that focus on education, health, and community development. From providing essential supplies to facilitating educational workshops, our efforts are dedicated to uplifting those in need.</p>
+                <p>We host spiritual events, provide resources to underprivileged groups, and offer guidance on the path of enlightenment.</p>
             </div>
         </div>
+        <a href="/Home/About" class="btn btn-primary mt-4">Learn More</a>
+    </div>
+</section>
+
+<!-- Events Section -->
+<section class="events py-5 bg-warning text-white">
+    <div class="container text-center">
+        <h2>Upcoming Events</h2>
+        <p>Join us for our upcoming spiritual gatherings and community service activities.</p>
         <div class="row">
-            <div class="col-md-12 text-center mt-4">
-                <a href="/Home/About" class="btn btn-primary">Learn More</a>
+            <div class="col-md-4">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 1</h5>
+                        <p class="card-text">Details about the upcoming event.</p>
+                        <a href="/Home/EventDetails/1" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 2</h5>
+                        <p class="card-text">Details about the upcoming event.</p>
+                        <a href="/Home/EventDetails/2" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light text-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 3</h5>
+                        <p class="card-text">Details about the upcoming event.</p>
+                        <a href="/Home/EventDetails/3" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Contact Section -->
-<div class="container mt-5">
-    <h2>Contact Us</h2>
-    <form asp-controller="Home" asp-action="Contact" method="post">
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name" required>
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com" required>
-        </div>
-        <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" name="Message" rows="3" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
-</div>
-
-
+<!-- Contact Us Section -->
+<section class="contact-us py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <form asp-controller="Home" asp-action="Contact" method="post" class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="Message" rows="3" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jared\\Desktop\\Lectures\\3rd Year\\Semester 2\\XBCAD7312\\Website back ups\\vishwadharam\\vishwadharam.csproj": {}
+    "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jared\\Desktop\\Lectures\\3rd Year\\Semester 2\\XBCAD7312\\Website back ups\\vishwadharam\\vishwadharam.csproj": {
+    "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jared\\Desktop\\Lectures\\3rd Year\\Semester 2\\XBCAD7312\\Website back ups\\vishwadharam\\vishwadharam.csproj",
+        "projectUniqueName": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj",
         "projectName": "vishwadharam",
-        "projectPath": "C:\\Users\\jared\\Desktop\\Lectures\\3rd Year\\Semester 2\\XBCAD7312\\Website back ups\\vishwadharam\\vishwadharam.csproj",
+        "projectPath": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\vishwadharam.csproj",
         "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jared\\Desktop\\Lectures\\3rd Year\\Semester 2\\XBCAD7312\\Website back ups\\vishwadharam\\obj\\",
+        "outputPath": "C:\\Users\\jared\\Documents\\GitHub\\vishwadharam\\vishwadharam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config",
